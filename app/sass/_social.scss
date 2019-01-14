@@ -1,0 +1,23 @@
+.social {
+    position: absolute;
+    left: 30px;
+    bottom: 60px;
+    @include flex;
+    align-items: center;
+    margin: 0 -20px;
+    z-index: 50;
+
+    &__li {
+        margin: 0 10px;
+    }
+
+    &__icon {
+        max-width: 25px;
+        @include flex;
+        align-items: center;
+
+        img {
+            vertical-align: middle;
+        }
+    }
+}

@@ -1,0 +1,50 @@
+.page-header {
+    padding: 0 20px;
+    @include flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 28px;
+    z-index: 999;
+
+    &__logo {
+        display: block;
+        width: 40px;
+        height: 40px;
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    &__hamburger {
+        width: 40px;
+        height: 25px;
+        position: relative;
+    }
+
+    &__hamburger-line {
+        position: absolute;
+        left: 0;
+        right: 0;
+        height: 1px;
+        background: #fff;
+
+        &--1 {
+            top: 0;
+        }
+
+        &--2 {
+            left: 5px;
+            top: 12px;
+        }
+
+        &--3 {
+            left: 10px;
+            top: 100%;
+        }
+    }
+}

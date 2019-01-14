@@ -1,0 +1,112 @@
+@mixin flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@mixin centr {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin clear {
+  &:after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+}
+
+@mixin avcentr {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+@mixin agcentr {
+  position: absolute;
+  left: 50%;
+  transform: translatex(-50%);
+}
+
+@mixin acentr {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+// brakepoints
+@mixin less-fullhd {
+    @media screen and (max-width: 1900px) {
+        @content;
+    }
+}
+
+@mixin from-desktop {
+    @media screen and (min-width: 1440px){
+        @content;
+    }
+}
+
+@mixin at-desktop {
+    @media screen and (max-width: 1440px) {
+        @content;
+    }
+}
+
+
+@mixin at-horizontal-tablet {
+    @media screen and (max-width: 1439px) and (min-width: 1024px) {
+        @content;
+    }
+}
+
+@mixin less-horizontal-tablet {
+    @media screen and (max-width: 1439px){
+        @content;
+    }
+}
+
+@mixin from-horizontal-tablet {
+    @media screen and (min-width: 1024px) {
+        @content;
+    }
+}
+
+@mixin at-vertical-tablet {
+    @media screen and (max-width: 1023px) and (min-width: 768px) {
+        @content;
+    }
+}
+
+@mixin less-vertical-tablet {
+    @media screen and (max-width: 1023px){
+        @content;
+    }
+}
+
+@mixin from-vertical-tablet {
+    @media screen and (min-width: 768px) {
+        @content;
+    }
+}
+
+@mixin at-mobile {
+    @media screen and (max-width: 767px) and (min-width: 0px) {
+        @content;
+    }
+}
+
+@mixin less-mobile {
+    @media screen and (max-width: 767px){
+        @content;
+    }
+}
+
+@mixin from-mobile {
+    @media screen and (min-width: 0px){
+        @content;
+    }
+}

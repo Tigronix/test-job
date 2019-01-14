@@ -1,0 +1,25 @@
+.breadcrumbs {
+    @include flex;
+    align-items: center;
+
+    &__item {
+        font-size: 16px;
+        line-height: 21px;
+        color: #000;
+        margin: 0 0 10px;
+
+        &:after {
+            display: inline-block;
+            content: '>';
+            margin: 0 10px;
+        }
+
+        &:last-child {
+            font-weight: bold;
+
+            &:after {
+                display: none;
+            }
+        }
+    }
+}

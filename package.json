@@ -1,0 +1,41 @@
+{
+  "name": "myproject",
+  "version": "1.0.0",
+  "description": "My First Gulp Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "cross-env NODE_ENV=production npx gulp build",
+    "start": "npx gulp"
+  },
+  "author": "WebDesign Master",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.23.6",
+    "cross-env": "^5.2.0",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.1.0",
+    "gulp-cache": "^1.0.2",
+    "gulp-clean": "^0.4.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-if": "^2.0.2",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-include": "^2.3.1",
+    "gulp-install": "^1.1.0",
+    "gulp-js-import": "^1.0.6",
+    "gulp-minify": "^3.1.0",
+    "gulp-pug": "^3.3.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.2.1",
+    "gulp-uglifyjs": "^0.6.2",
+    "gulp-update-modul": "^1.5.5",
+    "imagemin-pngquant": "^5.1.0",
+    "source-map": "^0.7.3"
+  },
+  "dependencies": {
+    "nunjucks": "^3.1.3",
+    "pug": "^2.0.3"
+  }
+}

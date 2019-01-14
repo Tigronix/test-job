@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+*:after,
+*:before {
+    box-sizing: border-box;
+}
+
+a,
+button,
+svg {
+    text-decoration: none;
+    user-select: none;
+}
+
+a {
+    color: currentColor;
+}
+
+body {
+    @include openSans;
+    overflow-x: hidden;
+    overflow-y: visible;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+ol li,
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: bottom;
+}
+
+input {
+    width: 100%;
+    display: inline-block;
+    border: none;
+}
+
+.icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+}
+
+button {
+    display: block;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.test {
+    border: 5px solid red;
+}

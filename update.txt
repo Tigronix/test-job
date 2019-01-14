@@ -1,0 +1,13 @@
+It is always necessary to update your plugins, as the syntax keeps changing as and then you keep going ahead.
+
+Here’s what I recommend to fix it:
+
+1) npm install -g npm-check-updates
+
+2) npm-check-updates -u
+
+3) rm -fr node_modules
+
+4) npm install
+
+Basically this installs npm-check-updates globally, runs it against your package.json and updates the dependency versions. Then you just delete the node modules folder and re-install.
