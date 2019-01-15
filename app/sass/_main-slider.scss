@@ -3,7 +3,6 @@
     z-index: 5;
 
     & + * {
-        transform: translateY(-15px);
         position: relative;
         z-index: 10;
     }
