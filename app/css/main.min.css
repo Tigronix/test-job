@@ -325,8 +325,6 @@ button {
     top: 0px;
     right: -6px;
     height: 13px;
-    -webkit-box-shadow: 0px -6px 8px -4px rgba(0, 0, 0, 0.42);
-            box-shadow: 0px -6px 8px -4px rgba(0, 0, 0, 0.42);
     -webkit-border-radius: 5px;
             border-radius: 5px; }
 
@@ -365,8 +363,6 @@ button {
     top: -8px;
     bottom: 0;
     width: 13px;
-    -webkit-box-shadow: -6px 0px 8px -4px rgba(0, 0, 0, 0.42);
-            box-shadow: -6px 0px 8px -4px rgba(0, 0, 0, 0.42);
     -webkit-border-radius: 5px;
             border-radius: 5px; }
   .pay-types__td:last-child:before {
@@ -377,8 +373,6 @@ button {
     top: -8px;
     bottom: 0;
     width: 13px;
-    -webkit-box-shadow: 6px 0px 8px -4px rgba(0, 0, 0, 0.42);
-            box-shadow: 6px 0px 8px -4px rgba(0, 0, 0, 0.42);
     -webkit-border-radius: 5px;
             border-radius: 5px; }
 
@@ -392,8 +386,6 @@ button {
 .pay-types__item {
   -webkit-border-radius: 5px;
           border-radius: 5px;
-  -webkit-box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.42);
-          box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.42);
   padding: 22px 10px 34px;
   height: 280px;
   color: #000;
